@@ -63,6 +63,7 @@ if st.button("Get Feedback"):
     if resume and instruction:
         feedback = generate_resume_feedback(resume, instruction, model, tokenizer)
         st.write("**Feedback:**")
+        st.snow()
         st.write(feedback)
     else:
         st.warning("Please provide both a resume and a custom instruction.")
