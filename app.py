@@ -67,3 +67,4 @@ if st.button("Get Feedback"):
         st.write(feedback)
     else:
         st.warning("Please provide both a resume and a custom instruction.")
+        st.balloon()
